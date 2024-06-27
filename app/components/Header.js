@@ -4,46 +4,43 @@ import React from 'react'
 
 function Header() {
   return (
-    <header class="header" data-header>
-    <div class="container">
+    <header className="header" data-header>
+    <div className="container">
 
-      <h1 class="h1 logo">
+      <h1 className="h1 logo">
         <a href="#">Rince Mathew<span>.</span></a>
       </h1>
 
-      <div class="navbar-actions">
-
-      
-
+      <div className="navbar-actions">
       </div>
 
-      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
-        <span class="one"></span>
-        <span class="two"></span>
-        <span class="three"></span>
+      <button className="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span className="one"></span>
+        <span className="two"></span>
+        <span className="three"></span>
       </button>
 
-      <nav class="navbar" data-navbar>
-        <ul class="navbar-list">
+      <nav className="navbar" data-navbar>
+        <ul className="navbar-list">
 
           <li>
-            <a href="#home" class="navbar-link">Home.</a>
+            <a href="#home" className="navbar-link">Home.</a>
           </li>
 
           <li>
-            <a href="#about" class="navbar-link">About.</a>
+            <a href="#about" className="navbar-link">About.</a>
           </li>
 
           <li>
-            <a href="#skills" class="navbar-link">Skills.</a>
+            <a href="#skills" className="navbar-link">Skills.</a>
           </li>
 
           <li>
-            <a href="#portfolio" class="navbar-link">My Projects.</a>
+            <a href="#portfolio" className="navbar-link">My Projects.</a>
           </li>
 
           <li>
-            <a href="#contact" class="navbar-link">Contact.</a>
+            <a href="#contact" className="navbar-link">Contact.</a>
           </li>
 
         </ul>
