@@ -18,7 +18,7 @@ function About() {
           motivating me to acquire new skills and embrace fresh challenges in this ever-evolving field. I'm a true JS enthusiast!
         </p>
         <div className="btn-group">
-          <a href="https://drive.google.com/file/d/16Agt7D_I6vSsvDbvvAPleozbFrJ1SNwg/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1086MK2cLqc83gAQLCBYeEy-14byIRzcy/view?usp=sharing">
             <button className="btn btn-primary">Download CV</button>
           </a>
         </div>

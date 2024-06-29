@@ -1,4 +1,8 @@
+"use client";
+
 import React from 'react'
+import { IonIcon } from '@ionic/react';
+import { callOutline, mailOutline, logoGithub, logoLinkedin, logoInstagram } from 'ionicons/icons';
 
 function Contact() {
   return (
@@ -16,7 +20,7 @@ function Contact() {
             </div>
             <div className="wrapper">
               <h3 className="h4 contact-item-title">Phone:</h3>
-              <a href="tel:01234567789" className="contact-info">(+91)9526322124</a>
+              <a href="tel:9497706714" className="contact-info">(+91)9497706714</a>
             </div>
           </li>
           <li className="contact-list-item">
@@ -25,26 +29,26 @@ function Contact() {
             </div>
             <div className="wrapper">
               <h3 className="h4 contact-item-title">Email:</h3>
-              <a href="mailto:mohandassrinivasan@gmail.com" className="contact-info">mohandassrinivasan@gmail.com</a>
-              <a href="mailto:mohandass.unni3@gmail.com" className="contact-info">mohandass.unni3@gmail.com</a>
+              <a href="mailto:rincemathewmanattu@gmail.com" className="contact-info">rincemathewmanattu@gmail.com</a>
+              <a href="mailto:rincemathew.m@gmail.com" className="contact-info">rincemathew.m@gmail.com</a>
             </div>
           </li>
           <li>
             <ul className="contact-social-list">
               <li>
-                <a href="https://github.com/MohanDaz3" className="contact-social-link">
+                <a href="https://github.com/rincemathew" className="contact-social-link">
                   <div className="tooltip">Github</div>
                   <IonIcon icon={logoGithub} />
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/mohandas-t-s/" className="contact-social-link">
+                <a href="https://www.linkedin.com/in/rince-mathew/" className="contact-social-link">
                   <div className="tooltip">Linkedin</div>
                   <IonIcon icon={logoLinkedin} />
                 </a>
               </li>
               <li>
-                <a href="#" className="contact-social-link">
+                <a href="https://www.instagram.com/rince_mathew_/" className="contact-social-link">
                   <div className="tooltip">Instagram</div>
                   <IonIcon icon={logoInstagram} />
                 </a>
