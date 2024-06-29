@@ -13,7 +13,7 @@ function Me() {
     </figure>
 
     <div className="hero-content">
-      <h2 className="h2 hero-title" style={{ color: 'black' }}>Hi, I'm a Full-Stack Dev</h2>
+      <h2 className="h2 hero-title" style={{ color: 'black' }}>{`Hi, I'm a Full-Stack Dev`}</h2>
       <a href="#contact" className="btn btn-primary">Get in touch</a>
     </div>
 

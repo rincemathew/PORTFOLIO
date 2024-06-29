@@ -17,7 +17,7 @@ function Projects() {
         <li>
           <a href="https://github.com/rincemathew/openai-telegram" className="project-card">
             <figure className="card-banner">
-              <img src="/project1.png" className="w-100" alt="" />
+              <img src="/project1.png" className="w-100" alt="telegram bot" />
             </figure>
             <div className="card-content">
               <h3 className="h4 card-title">Open ai integrated in telegram Bots</h3>
@@ -26,12 +26,12 @@ function Projects() {
           </a>
         </li>
         <li>
-          <a href="https://rincemathew.github.io/Simple_Calculator/" className="project-card">
+          <a href="https://github.com/rincemathew/olx-clone" className="project-card">
             <figure className="card-banner">
-              <img src="/prjct1.jpg" className="w-100" alt="A macintosh on a yellow background." />
+              <img src="/project2.jpg" className="w-100" alt="olx front page" />
             </figure>
             <div className="card-content">
-              <h3 className="h4 card-title">A Simple Version Of Calculator</h3>
+              <h3 className="h4 card-title">OLX - Clone</h3>
               <time className="publish-date" dateTime="2022-04">Live</time>
             </div>
           </a>
