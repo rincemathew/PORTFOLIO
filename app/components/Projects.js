@@ -28,7 +28,7 @@ function Projects() {
         <li>
           <a href="https://github.com/rincemathew/olx-clone" className="project-card">
             <figure className="card-banner">
-              <img src="/project2.jpg" className="w-100" alt="olx front page" />
+              <img src="/project2.jpeg" className="w-100" alt="olx front page" />
             </figure>
             <div className="card-content">
               <h3 className="h4 card-title">OLX - Clone</h3>
@@ -37,64 +37,64 @@ function Projects() {
           </a>
         </li>
         <li>
-          <a href="https://rincemathew.github.io/Snake-Game-Demo/" className="project-card">
+          <a href="https://github.com/rincemathew/gadget-in" className="project-card">
             <figure className="card-banner">
-              <img src="/prjct2.jpg" className="w-100" alt="On a Blue background, a Wacom and a mouse." />
+              <img src="/project3.png" className="w-100" alt="E-commerce website" />
             </figure>
             <div className="card-content">
-              <h3 className="h4 card-title">A Mini Version Snake Game</h3>
+              <h3 className="h4 card-title">An E-commerce Website</h3>
+              <time className="publish-date" dateTime="2022-04">gadgetin</time>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/rincemathew/To-Do-List" className="project-card">
+            <figure className="card-banner">
+              <img src="/project4.png" className="w-100" alt="TO Do List" />
+            </figure>
+            <div className="card-content">
+              <h3 className="h4 card-title">To Do List</h3>
               <time className="publish-date" dateTime="2022-04">Live</time>
             </div>
           </a>
         </li>
         <li>
-          <a href="https://rincemathew.github.io/Hulu-Home-page-clone/" className="project-card">
+          <a href="https://github.com/rincemathew/Spotify-Clone" className="project-card">
             <figure className="card-banner">
-              <img src="/prjct3.jpg" className="w-100" alt="A Cassette tape on a mellow apricot background." />
+              <img src="/project5.png" className="w-100" alt="Spotify Clone" />
             </figure>
             <div className="card-content">
-              <h3 className="h4 card-title">Clone Of Hulu Home Page</h3>
+              <h3 className="h4 card-title">Spotify Clone</h3>
               <time className="publish-date" dateTime="2022-04">Live</time>
             </div>
           </a>
         </li>
         <li>
-          <a href="https://rincemathew.github.io/BMW-cycles-clone/" className="project-card">
+          <a href="https://github.com/rincemathew/Netflix-clone-React" className="project-card">
             <figure className="card-banner">
-              <img src="/prjct4.jpg" className="w-100" alt="Blue digital watch on a dark liver background." />
+              <img src="/project6.png" className="w-100" alt="NetFlix Clone using TMDB" />
             </figure>
             <div className="card-content">
-              <h3 className="h4 card-title">Clone of BMW Cycles Home Page</h3>
+              <h3 className="h4 card-title">NetFlix Clone using TMDB</h3>
               <time className="publish-date" dateTime="2022-04">Live</time>
             </div>
           </a>
         </li>
         <li>
-          <a href="https://rincemathew.github.io/ToDo-List/" className="project-card">
+          <a href="https://github.com/rincemathew/bsa-project" className="project-card">
             <figure className="card-banner">
-              <img src="/prjct5.jpg" className="w-100" alt="On a dark liver background, Airport luggage car carrying a luggage." />
+              <img src="/project7.png" className="w-100" alt="BSA Clone" />
             </figure>
             <div className="card-content">
-              <h3 className="h4 card-title">A Simple ToDo List Using HTML,CSS & JS</h3>
+              <h3 className="h4 card-title">BSA Clone</h3>
               <time className="publish-date" dateTime="2022-04">Live</time>
             </div>
           </a>
         </li>
         <li>
-          <a href="https://rincemathew.github.io/Netflix-Clone-using-React/" className="project-card">
+          <a href="https://github.com/rincemathew/Prime-Video-Clone" className="project-card">
             <figure className="card-banner">
-              <img src="/netflix.jpg" className="w-100" alt="On a dark liver background, Airport luggage car carrying a luggage." />
-            </figure>
-            <div className="card-content">
-              <h3 className="h4 card-title">A Clone of Netflix Using React</h3>
-              <time className="publish-date" dateTime="2022-04">Live</time>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="https://rincemathew.github.io/Amazon-prime-video-clone/" className="project-card">
-            <figure className="card-banner">
-              <img src="/prjct6.jpg" className="w-100" alt="A fujifilm instant camera on a dark electric blue background." />
+              <img src="/project8.png" className="w-100" alt="Clone Of Amazon Prime Home Page" />
             </figure>
             <div className="card-content">
               <h3 className="h4 card-title">Clone Of Amazon Prime Home Page</h3>
