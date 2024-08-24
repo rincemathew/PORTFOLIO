@@ -2,45 +2,46 @@ import React from 'react'
 
 function Me() {
   return (
-    <section className="hero" id="home">
+    <section className="h-screen flex justify-center items-center bg-white" id="about">
+            <div className="container mx-auto px-4">
+                <div className="flex flex-wrap">
+                    
+                    <div className="lg:w-7/12 w-full flex items-center">
+                        <div className="about-text">
+                            <small className="text-gray-500 block mb-2">Welcome to <span className="block lg:inline">my portfolio website!</span></small>
+                            <h1 className="text-4xl font-bold mb-4">
+                                <span className="mr-2">Hey folks, I'm</span>
+                                <div className="inline-block">
+                                    <span className="block text-blue-600">Marvel Sann</span>
+                                    <span className="block text-blue-600">Web Designer</span>
+                                    <span className="block text-blue-600">UI Specialist</span>
+                                </div>
+                            </h1>
 
-    <figure className="hero-banner">
-      <picture>
-        <source srcSet="/new.png" media="(min-width: 768px)" />
-        <source srcSet="/new.png" media="(min-width: 500px)" />
-        <img src="/new.png" alt="A man in a blue shirt with a happy expression" className="w-100" />
-      </picture>
-    </figure>
+                            <p className="text-gray-700 mb-6">
+                                Building a successful product is a challenge. I am highly energetic in user experience design, interfaces, and web development.
+                            </p>
+                            
+                            <div className="flex mt-4">
+                                <a href="#" className="btn bg-blue-500 text-white mr-4 py-2 px-4 rounded-lg flex items-center hover:bg-blue-600 transition">
+                                    <i className='uil uil-file-alt mr-2'></i> Download Resume
+                                </a>
+                                <a href="#contact" className="btn bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-900 transition">
+                                    Get a free quote
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
-    <div className="hero-content">
-      <h2 className="h2 hero-title" style={{ color: 'black' }}>{`Hi, I'm a Full-Stack Dev`}</h2>
-      <a href="#contact" className="btn btn-primary">Get in touch</a>
-    </div>
+                    <div className="lg:w-5/12 w-full mt-8 lg:mt-0">
+                        <div className="about-image">
+                            <img src="/new.png" className="w-full h-auto" alt="Software Engineer Illustration" />
+                        </div>
+                    </div>
 
-    <ul className="hero-social-list">
-      <li>
-        <a href="https://github.com/rincemathew" className="hero-social-link">
-          <ion-icon name="logo-github"></ion-icon>
-          <div className="tooltip">Github</div>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/rince-mathew/" className="hero-social-link">
-          <ion-icon name="logo-linkedin"></ion-icon>
-          <div className="tooltip">Linkedin</div>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/rince_mathew_/" className="hero-social-link">
-          <ion-icon name="logo-instagram"></ion-icon>
-          <div className="tooltip">Instagram</div>
-        </a>
-      </li>
-    </ul>
-
-    <a href="#stats" className="scroll-down">Scroll</a>
-    
-  </section>
+                </div>
+            </div>
+        </section>
   )
 }
 
