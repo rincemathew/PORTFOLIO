@@ -20,8 +20,10 @@ export default function RootLayout({ children }) {
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
     rel="stylesheet"></link>
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{children}
       <Script src="/script.js" strategy="beforeInteractive"/>
+      </body>
+      
     </html>
   );
 }
