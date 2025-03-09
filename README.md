@@ -4,6 +4,7 @@ https://react.semantic-ui.com/modules/transition/
 
 https://www.youtube.com/watch?v=yTI52VeufHI - insparation
 https://bentofolio-thecodedose.vercel.app/
+https://github.com/thecodedose/bentofolio
 
 bento box portfolio (bento web design)
 

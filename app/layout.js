@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
       <link rel="preconnect" href="https://fonts.googleapis.com"></link>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"></link>
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
     rel="stylesheet"></link>
