@@ -1,11 +1,16 @@
 "use client";
+import { useTheme } from 'next-themes'
+
 import React from "react";
 import Image from "next/image";
 
 export default function Themes() {
+  const { theme, setTheme } = useTheme()
   const handleClick = (index) => {
-    console.log(`Clicked on image ${index + 1}`);
-    // You can also trigger a modal or route change here
+    // console.log(`Clicked on image ${index + 1}`);
+    setTheme(`theme-${index + 1}`); // Set the theme based on the clicked image index
+    // You can also store the theme in localStorage or cookies if needed
+    
   };
 
   return (

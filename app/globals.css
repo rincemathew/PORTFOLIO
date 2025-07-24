@@ -10,7 +10,7 @@
     --text-color: #333;
 }
 
-[data-theme='two'] {
+[data-theme='theme-2'] {
     --primary-color: #799eff;
     --secondary-color: #feffc4;
     --third-color: #ffde63;
