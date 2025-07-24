@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
+    --primary-color: #932f67;
+    --secondary-color: #d92c54;
+    --third-color: #dddeab;
+    --fourth-color: #8abb6c;
+    --text-color: #333;
+} */
+
+[data-theme='theme-1'] {
     --primary-color: #932f67;
     --secondary-color: #d92c54;
     --third-color: #dddeab;
@@ -19,6 +27,38 @@
 }
 
 
+[data-theme='theme-3'] {
+    --primary-color: #fe7743;
+    --secondary-color: #273f4f;
+    --third-color: #447d9b;
+    --fourth-color: #d7d7d7;
+    --text-color: #333;
+}
+
+[data-theme='theme-4'] {
+    --primary-color: #d6d85d;
+    --secondary-color: #ecedb0;
+    --third-color: #ead8a4;
+    --fourth-color: #f68537;
+    --text-color: #333;
+}
+
+[data-theme='theme-5'] {
+    --primary-color: #fff2e0;
+    --secondary-color: #c0c9ee;
+    --third-color: #a2aadb;
+    --fourth-color: #898ac4;
+    --text-color: #333;
+}
+
+[data-theme='theme-6'] {
+    --primary-color: #4300ff;
+    --secondary-color: #0065f8;
+    --third-color: #00caff;
+    --fourth-color: #00ffde;
+    --text-color: #333;
+}
+
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -29,6 +69,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .card:hover {
