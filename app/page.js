@@ -1,4 +1,4 @@
-import Blog from "./components/blog";
+import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Me from "./components/Me";
