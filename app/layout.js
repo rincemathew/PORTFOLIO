@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
     rel="stylesheet"></link>
       </head>
       <body className={inter.className}>
-      <ThemeProvider attribute="data-theme" defaultTheme="theme-1" enableSystem={false}>
+      <ThemeProvider attribute="data-theme" defaultTheme="theme-3" enableSystem={false}>
         {children}
       </ThemeProvider>
   <Script src="/script.js" strategy="afterInteractive"/>
